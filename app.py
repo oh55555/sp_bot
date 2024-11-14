@@ -19,7 +19,7 @@ def communicate():
     messages.append(user_message)
 
     response = openai.ChatCompletion.create(
-        model="GPT-4o",
+        model="gpt-4o-2024-08-06",
         messages=messages
     )
 
